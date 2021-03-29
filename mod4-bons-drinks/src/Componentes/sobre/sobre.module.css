@@ -1,0 +1,38 @@
+.containerSobre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tituloSobre{
+    width: 100%;
+    font-family: var(--subtitulo);
+    color: var(--vinhoEscuro);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.sectionSobre{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.imgSobreNos{
+    width: 30%;
+    border-radius: 10px;
+    margin: 5% 0;
+}
+
+.textoSobre{
+    width: 40%;
+    font-family: var(--texto);
+
+}

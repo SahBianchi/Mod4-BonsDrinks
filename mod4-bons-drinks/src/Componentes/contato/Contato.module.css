@@ -1,0 +1,53 @@
+.containerContato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tituloContato{
+    width: 100%;
+    font-family: var(--subtitulo);
+    color: var(--vinhoEscuro);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.sectionForm{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.imgContato{
+    width: 50%; 
+}
+
+.form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.botao{
+    width: 40%;
+    height: 40%;
+    font-family: var(--texto);
+    color: var(--gelo);
+    background-color: var(--vinhoEscuro);
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+.botao:hover{
+    background-color: var(--vinho);
+}

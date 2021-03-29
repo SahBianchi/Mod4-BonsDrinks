@@ -1,0 +1,30 @@
+.containerHeader{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--laranjaQueimado);
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 42%);
+}
+
+.navHeader{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linkHeader{
+    font-family: var(--subtitulo);
+    list-style: none;
+    text-decoration: none;
+    color: var(--gelo);
+    font-size: 2.1rem;
+}
+
+.linkHeader:nth-child(3){
+    font-family: var(--titulo);
+    font-size: 2.5rem;
+}

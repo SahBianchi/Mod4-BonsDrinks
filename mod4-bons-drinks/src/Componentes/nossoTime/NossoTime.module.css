@@ -1,0 +1,56 @@
+.containerNossoTime{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.tituloNossoTime{
+    width: 100%;
+    font-family: var(--subtitulo);
+    color: var(--vinhoEscuro);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.containerCards{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cardNossoTime{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgPessoa{
+    width: 80%;
+    border-radius: 30px;
+
+}
+
+.nomePessoa{
+    font-family: var(--subtitulo);
+    color: var(--laranjaQueimado);
+    font-size: 30px;
+    margin-top: 3%;
+    text-align: right;
+}
+
+.textoPessoa{
+    width: 70%;
+    margin-top: 3%;
+    margin-bottom: 8%;
+    font-family: var(--texto);
+    font-size: 16px;
+}

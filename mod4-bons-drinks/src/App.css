@@ -1,0 +1,36 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+.app{
+  display: grid;
+  grid-template-areas:
+  "header"
+  "main"
+  "footer";
+}
+
+.headerApp{
+  grid-area: header;
+}
+
+.mainApp{
+  grid-area: main;
+}
+
+.footerApp{
+  grid-area: footer;
+}
+
+:root{
+  --vinho: #730217;
+  --vinhoEscuro: #590219;
+  --gelo: #F2EDDC;
+  --creme:#F2CF8D;
+  --marromClaro: #A65F21;
+  --laranjaQueimado: #A62F03;
+  --marromEscuro: #732210;
+  --titulo:'Bilbo Swash Caps', cursive;
+  --subtitulo: 'Open Sans Condensed', sans-serif;
+  --texto: 'Open Sans', sans-serif;
+}
