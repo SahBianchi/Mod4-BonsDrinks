@@ -18,4 +18,4 @@ Essas instruções permitirão que você consiga ter esse projeto em operação 
 
 💻 **Samantha Bianchi** - *Front-end* - [GitHub](https://github.com/SahBianchi) | [Linkedin](https://www.linkedin.com/in/sahbianchi/)
 
-Você pode conferir o resultado [clica aqui!]().
+Você pode conferir o resultado [clica aqui!](https://samdrinks.netlify.app/).
